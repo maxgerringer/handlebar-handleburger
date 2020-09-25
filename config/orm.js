@@ -11,6 +11,7 @@ function sqlQuestionMarks(num) {
 function objectToSql(ob) {
    let arr = [];
    for (let key in ob) {
+      let value = ob[key];
       if (Object.hasOwnProperty.call(ob, key)) {
          if (typeof value === "string" && value.indexOf(" ") >= 0) {
             value = "'" + value + "'";

@@ -1,0 +1,29 @@
+{
+  "name": "handlebar-handleburger",
+  "version": "1.0.0",
+  "description": "* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgerringer/handlebar-handleburger.git"
+  },
+  "keywords": [
+    "handlebars",
+    "express"
+  ],
+  "author": "Max R. Gerringer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxgerringer/handlebar-handleburger/issues"
+  },
+  "homepage": "https://github.com/maxgerringer/handlebar-handleburger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
